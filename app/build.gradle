@@ -30,6 +30,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    //allow the access to object of the interface
+    //from code, in 'binding'
+    buildFeatures {
+        jvmTarget = '1.8'
+    }
 }
 
 dependencies {
